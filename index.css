@@ -1,0 +1,48 @@
+body{
+    
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/Meme-Wallpaper-HD.jpg");
+    background-size: cover;
+    width:100vw;
+    height: 100vh;
+    
+}
+img{
+    width:40vw;
+    height:50vh;
+    margin-bottom: 10px;
+}
+h1{
+    
+    animation: slide-In 11s linear infinite;
+}
+@keyframes slide-In {
+ 
+  to {
+    transform:translateX(90%) ;
+  }    
+}
+.meme{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    background-color: beige;
+    padding: 15px;
+    width:40vw;
+    border-radius: 5px;
+
+
+}
+#but{
+    background-image: linear-gradient(rgb(239, 116, 44),orange,rgb(224, 178, 87));
+    border: 1.5px solid black;
+    padding:10px;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+#but:hover{
+    cursor: pointer;
+    background-image: linear-gradient(rgb(241, 113, 39),orange,rgb(228, 174, 65));
+    box-shadow: 2px 3px black;
+    border-radius: 7px;
+}
